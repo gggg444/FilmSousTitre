@@ -5,7 +5,7 @@ from pathlib import Path
 def extract_audio(video_path, audio_path):
     """Extrait l'audio d'une vidéo en format WAV 16kHz mono"""
     command = [
-        'ffmpeg',
+         r'C:\Users\rekxh\Downloads\ffmpeg-7.1.1-full_build\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe',
         '-i', video_path,
         '-vn',
         '-acodec', 'pcm_s16le',
