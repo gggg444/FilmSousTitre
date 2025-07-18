@@ -1,0 +1,15 @@
+# Environnements
+.env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Données
+data/raw/*
+!data/raw/.gitkeep
+
+# Système
+.DS_Store
+Thumbs.db
