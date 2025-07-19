@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------------------
+# Global project configuration (YAML)
+# ---------------------------------------------------------------------------
+# NOTE: Use forward slashes or double backslashes in Windows paths.
+# ---------------------------------------------------------------------------
+
+# Absolute or user‑relative path to ffmpeg executable
+ffmpeg_path: "ffmpeg"
+
+# Directory where downloaded (and converted) audio files will be stored
+output_dir: "./downloads"
+
+# Audio conversion settings
+audio:
+  preferredcodec: "mp3" # Target codec for extracted audio
+  preferredquality: "192" # Bitrate in kbps passed to ffmpeg
